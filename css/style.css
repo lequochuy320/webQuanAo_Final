@@ -1,0 +1,240 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* toolbar */
+.topnav1{
+  overflow: hidden;
+  background-color: #e9e9e9;
+  float:right;
+}
+.topnav2{
+  overflow: hidden;
+  background-color: white;
+  margin-top:35px;
+  margin-left: 350px;
+
+}
+.div1{
+    overflow:hidden;
+    background-color: #e9e9e9;
+}
+.div2{
+    overflow:hidden;
+    background-color: white;
+    height: 120px;
+    border-bottom: #e9e9e9 solid;
+    border-width: 3px;
+    
+}
+
+.search1{
+   float:right;
+   height: 30px;
+   width: 200px;
+   margin-top: 10px;
+   margin-right: 200px;
+   border-radius: 8px;
+}
+
+.topnav1 a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav2 a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav1 a:hover {
+  background-color: #2196F3;
+  color: white;
+}
+.topnav2 a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav1 a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav2 a.active {
+    background-color: black;
+    color: white;
+}
+
+.search1 input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav1 a, .topnav1 input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .topnav1 input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+/* Nội dung*/
+#logo{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    margin-top:5px;
+}
+img{
+    height: 569px;
+    width: 720px;
+}
+.qc{
+    text-align:none;
+    margin-left: 316px;
+    height: 80px;
+    font-family: 'Courier New', monospace;
+    font-size: 50px;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.free-space{
+    height:100px;
+}
+.btn{
+    background-color: #313131;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 10px;
+    border-width: 5px;
+    
+    
+}
+    /*Canh giữa cho pic2 và pic3*/
+#qc2, #qc3{
+    margin-left:618px;
+    margin-top: -100px;
+}
+
+    /*Canh giữa cho pic1*/
+#qc1.btn{
+    margin-top: -135px;
+    margin-left: 778px;
+}
+
+#btn-order{
+    margin-top:0;
+    margin-left:45%;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    border-width: 1px;
+}
+#logo-contact-order{
+    margin-left: 45%;
+}
+
+#xem-them{
+    background-color: orangered;
+    border-color: orangered;
+    padding: 3px 16px;
+    margin-top: -100px;
+    margin-left: 100px;
+    border-width: 1px;
+}
+
+body{
+    background-image: url("../images/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+th.intro{
+    width: 20%;
+    text-align: left;
+}
+.div-table{
+    background-color: black;
+    height:auto;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+/* icons in SOCIAL*/
+.fa {
+    padding: 8px 8px;
+    font-size: 12px;
+    width: 30px;
+    height:30px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #8A3AB9;
+    color: white;
+}
+
+/* Font*/
+.font{
+    font-style: Lucida Sans Unicode
+    Lucida Grande;
+    font-size: 30px;
+}
+
+.about{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+#logo.active{
+    margin-left: 48%;
+}
+
